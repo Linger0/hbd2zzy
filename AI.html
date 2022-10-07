@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>文图生成导航页</title>
+    <link rel="stylesheet" type="text/css" href="css/AI.css" />
+    <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro">
+            <h2>
+                这个模型
+                <a href="http://212.129.255.227:8865" target="_blank">Stable Diffusion</a>
+                在我的服务器上，在 Prompt 一栏输入提示词，点击 Generate 就能按照提示词生成图像，拖到页面最下方就能看到图像。
+                <a href="https://lexica.art/" target="_blank">这里</a>
+                是个 Prompt 分享网站。
+                <br><br>
+                上面主要支持英文，对中文支持有限，支持中文的模型可以看百度的
+                <a href="https://wenxin.baidu.com/moduleApi/ernieVilg" target="_blank">ERNIE-ViLG</a>，
+                并且这里有 ERNIE-ViLG 的
+                <a href="http://www.youpromptme.cn/#/you-prompt-me/" target="_blank">Prompt 指南</a>。
+                <br><br>
+                这里有 Stable Diffusion 的
+                <a href="https://github.com/Maks-s/sd-akashic" target="_blank">指南集</a>，
+                以及一些
+                <a href="https://docs.google.com/document/d/11WlzjBT0xRpQhP9tFMtxzd0q6ANIdHPUBkMV-YB043U/edit#" target="_blank">
+                    英文指南
+                </a>；
+                B 站有一些介绍
+                <a href="https://www.bilibili.com/video/BV1Ug411U7VL/?
+                    spm_id_from=333.337.search-card.all.click&vd_source=d5f2dc35dbb44521744f4c55cfdcf4c5" target="_blank">
+                    视频
+                </a>。
+                <br>
+            </h2>
+        </div>
+        <div class="example">
+            <h2 style="color:#D14D39">下面是一些示例</h2>
+            <div class="responsive">
+                <div class="img">
+                    <div class="desc">胖虎在饥荒里调戏小鼠</div>
+                    <img src="img/panghu2.png" alt="" width="512" height="512">
+                    <img src="img/panghu1.png" alt="" width="512" height="512">
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <div class="desc">Asia girl, glossy eyes, face, long hair, fantasy, elegant,
+                        highly detailed, digital painting, artstation, concept art, smooth, illustration,
+                        renaissance, flowy, melting, round moons, rich clouds, very detailed, volumetric light, mist,
+                        fine art, textured oil over canvas, epic fantasy art, very colorful, ornate intricate scales, fractal gems,
+                        hyper realistic, high contrast</div>
+                    <img src="img/00226.png" alt="" width="512" height="512">
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <div class="desc">A monk is staring at a crab with three craws, thinking of something
+                    </div>
+                    <img src="img/00129.png" alt="" width="512" height="512">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
