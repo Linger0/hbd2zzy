@@ -23,7 +23,7 @@ $("#login-button").click(function (event) {
         event.preventDefault();
     } else {
         event.preventDefault();
-        alert("输错了！如果不是 TBD，请点返回进入另一个。");
+        alert("输错了！如果不是 zzy，请点返回进入另一个。");
     }
 });
 $("#login-button-oth").click(function (event) {
@@ -41,7 +41,7 @@ $("#login-button-oth").click(function (event) {
         event.preventDefault();
     } else {
         event.preventDefault();
-        alert("输错了！如果不知道口令，可以问 TBD，记得先送上生日祝福哦~");
+        alert("输错了！如果不知道口令，可以问 zzy，记得先送上生日祝福哦~");
     }
 });
 $("#zzy-click").click(function () {
